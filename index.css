@@ -1,0 +1,500 @@
+
+
+section {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: skyblue;
+    height: 900px;
+    position: relative;
+}
+.waviy {
+    position: absolute;
+    top: 77px;
+    left: 491px;
+    display: none;
+}
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #ff0000;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+    letter-spacing: 35px;
+}
+@keyframes flip {
+    0%,80% {
+    transform: rotateY(360deg) 
+    }
+}
+
+.content-container {
+    height: 700px;
+    }
+
+.sun {
+    position: absolute;
+    left: 42px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.sunshine{
+    position: absolute;
+    width: 5%;
+    height:4px;
+    border-radius: 50%;
+    transform: rotate(3deg);
+    top: 20px;
+    left: 125px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+    
+}
+
+.sunshine2{
+    position: absolute;
+    width: 5%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(7deg);
+    top: 40px;
+    left: 142px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+}
+.sunshine3{
+    position: absolute;
+    width: 5%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(11deg);
+    top: 60px;
+    left: 120px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+
+}
+.sunshine4{
+    position: absolute;
+    width: 6%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(15deg);
+    top: 80px;
+    left: 117px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+}
+.sunshine5{
+    position: absolute;
+    width: 5%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(19deg);
+    top: 100px;
+    left: 114px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+
+}
+.sunshine6{
+    position: absolute;
+    width: 5%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(55deg);
+    top: 130px;
+    left: 85px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+}
+.sunshine7{
+    position: absolute;
+    width: 4%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(37deg);
+    top: 118px;
+    left: 119px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+
+}
+.sunshine8{
+    position: absolute;
+    width: 3%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(71deg);
+    top: 126px;
+    left: 80px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+
+}
+.sunshine9{
+    position: absolute;
+    width: 4%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(83deg);
+    top: 130px;
+    left: 53px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+}
+
+.sunshine10{
+    position: absolute;
+    width: 4%;
+    height:4px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: rotate(-70deg);
+    top: 120px;
+    left: 32px;
+    background: linear-gradient(to right, transparent 0%, yellow 50%, transparent 100%);
+}
+@keyframes moveCloud {
+    0% { left: 310px; }
+    50% { left: 710px; }
+    100% { left: 310px; }
+}
+
+.cloud {
+    position: absolute;
+    background-color: white;
+    border-radius: 60%;
+    top: 10px;
+    left: 310px;
+    animation: moveCloud 15s infinite linear;
+}
+
+@keyframes moveCloud1 {
+    0% { left: 510px; }
+    50% { left: 910px; }
+    100% { left: 510px; }
+}
+
+.cloud1 {
+    position: absolute;
+    background-color: white;
+    border-radius: 60%;
+    top: 90px;
+    left: 510px;
+    animation: moveCloud1 15s infinite linear;
+}
+
+@keyframes moveCloud2 {
+    0% { left: 910px; }
+    50% { left: 1310px; }
+    100% { left: 910px; }
+}
+
+.cloud2 {
+    position: absolute;
+    background-color: white;
+    border-radius: 60%;
+    top: 40px;
+    left: 910px;
+    animation: moveCloud2 15s infinite linear;
+}
+
+
+.cloud1 img {
+    width: 100px;
+    height: 60px;
+}
+
+.cloud2 img {
+    width: 100px;
+    height: 60px;
+
+}
+.cloud img {
+    width: 100px;
+    height: 60px;
+
+}
+.boy{
+    position: absolute;
+    top: 150px;
+left: 77px;
+    width: 200px;
+    height: 260px;
+    
+}
+.head{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.eye{
+    position: absolute;
+    top: 110px;
+    left: 70px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(20, 104, 117);
+}
+.body{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    width: 30px;
+    height: 80px;
+    background-color:rgb(103, 99, 99);
+}
+.hands{
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    width: 10px;
+    height: 75px;
+    transform: rotate(-80deg);
+    background-color: darksalmon;
+    
+}
+.flower{
+    position: absolute;
+    top: 115px;
+    left: 126px;
+    width: 6px;
+    height: 60.5px;
+    border-radius: 3px;
+    background-color: rgb(64, 210, 64);
+    
+}
+.petal{
+    position: absolute;
+    top: 115px;
+    left: 120px;
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.petal2{
+    position: absolute;
+    top: 115px;
+    left: 130px;
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.petal3{
+    position: absolute;
+    top: 107px;
+    left: 125px;
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.petal4{
+    position: absolute;
+    top: 116px;
+    left: 125px;
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:yellow;
+}
+.leg1{
+    position: absolute;
+    top: 200px;
+    left: 48px;
+    border-radius: 3px;
+    transform: rotate(11deg);
+    width: 6px;
+    height: 60px;
+    background-color: rgb(252, 252, 253);
+    
+}
+.foot{
+    position: absolute;
+    top: 245px;
+    left: 53px;
+    transform: rotate(-90deg);
+    width: 5px;
+    height: 30px;
+    background-color: rgb(252, 252, 253);
+}
+.leg2{
+    position: absolute;
+    top: 200px;
+    left: 85px;
+    border-radius: 3px;
+    transform: rotate(-24deg);
+    width: 6px;
+    height: 60px;
+    background-color: rgb(252, 252, 253);
+}
+.foot2{
+    position: absolute;
+    top: 243px;
+    left: 111px;
+    transform: rotate(90deg);
+    width: 5px;
+    height: 30px;
+    background-color: rgb(252, 252, 253);
+}
+
+
+.girl{
+    position: absolute;
+    top: 161px;
+    left: 1110px;
+    width: auto;
+    height: 260px;
+    background-color: blue;
+}
+.girlhead{
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.girleye{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.girlbody{
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 130px;
+    left: 97px;
+
+}
+.girlhand{
+    position: absolute;
+    top: 130px;
+    left: 93px;
+    width: 10px;
+    height: 50px;
+    border-radius: 7px;
+    transform: rotate(-100deg);
+    background-color: darksalmon;
+    display: none;
+}
+.girlleg1{
+    position: absolute;
+    top: 188px;
+    left: 110px;
+    border-radius: 3px;
+    width: 6px;
+    height: 60px;
+    background-color: rgb(252, 252, 253);
+}
+.girlleg2{
+    position: absolute;
+    top: 188px;
+    left: 140px;
+    border-radius: 3px;
+    width: 6px;
+    height: 60px;
+    background-color: rgb(252, 252, 253);
+}
+.girlfoot1{
+    position: absolute;
+    top: 233px;
+    left: 103px;
+    transform: rotate(90deg);
+    width: 5px;
+    height: 25px;
+    background-color: rgb(252, 252, 253);
+    border-radius: 10px;
+}
+.girlfoot2{
+    position: absolute;
+    top: 233px;
+    left: 133px;
+    transform: rotate(90deg);
+    width: 5px;
+    height: 25px;
+    background-color: rgb(252, 252, 253);
+    border-radius: 10px;
+}
+.girlflower{
+    position: absolute;
+    top: 105px;
+    left: 72px;
+    width: 6px;
+    height: 65px;
+    border-radius: 3px;
+    background-color: rgb(64, 210, 64);
+    display: none;
+}
+.girlpetal{
+    position: absolute;
+    top: 102px;
+    left: 76px;
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+.girlpetal2{
+    position: absolute;
+    top: 96px;
+    left: 71px;
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: none;
+
+}
+.girlpetal3{
+    position: absolute;
+    top: 101.8px;
+    left: 65px;
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+.girlpetal4{
+    position: absolute;
+    top: 103px;
+    left: 71px;
+    width: 8px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: none;
+}
+.B-G{
+    position: absolute;
+    top: 415px;
+    left: 0;
+    background-color: rgb(16, 153, 16);
+    width: 1500px;
+    height: 100px;
+
+}
